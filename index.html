@@ -8,6 +8,7 @@
     <title>Calculadora</title>
     
     <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="./script.js"></script>
 </head>
 <body>
     
@@ -21,13 +22,22 @@
             <h3>Completa todos los datos</h3>
            <h2>Ingrese el peso del niño</h2>
             <input type="number" placeholder="peso en kg" id="peso"> 
-            
-            <button class="boton">Calcular</button>
-            <p> <li>70CC/hr
+           
+            <button class="boton" id="buton">Calcular</button>
+            <p> 
+                <ul id="parrafo">
+                <li>70CC/hr
             </li>
-            <li> m+m2/ 105 cc/hr</li> </p>
+            <li> m+m2/ 105 cc/hr</li>
+        </ul>
+         </p>
+            <div id="base">
+            </div>
            </div>
         </div>
+        
+        
+       
         <div id="detalle">  
             <div class="contenido">
         <h1>¿Como se calcula?</h1>
@@ -39,7 +49,7 @@
 </div>    
 </div>
 </div> 
-     
- 
+  
+ <script src="./algoritmos.js"></script>
 </body>
 </html>
