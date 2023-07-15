@@ -4,17 +4,28 @@ body{
     background-color: rgb(193, 238, 238);
     font-family: 'Montserrat', sans-serif;
 }
-
-
-h1{
-    text-align: center;
+#peso{
+    padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
 }
+
 .boton{
-    color:rgb(255, 254, 254);
-    background-color:rgb(255, 13, 0);
-    border-radius: 7%;
-    font-size: xx-large;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
     text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: dodgerblue;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
    
 }
 #contenedor{
@@ -27,13 +38,13 @@ h1{
     background-color: blueviolet;
     border-radius: 4%;
     overflow: hidden;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
     
 }
 #calculadora{
     
     float: left;
-    background-color: rgb(221, 121, 75);
+    background-color: white;
     width: 50%;
     height: 100%;
     margin: auto;
@@ -41,7 +52,7 @@ h1{
 #detalle{
     float: left;
     text-align: left;
-    background-color: rgb(236, 136, 191);
+    background-color: rgb(86, 216, 151);
     width: 50%;
     height: 100%;
     margin: auto;
@@ -52,6 +63,7 @@ h1{
     transform: translateY(-50%);
     overflow: hidden;
     padding: 40px;
+    text-align: center;
     
 }
 #base{
