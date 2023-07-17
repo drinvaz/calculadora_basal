@@ -43,7 +43,7 @@ let pesoBasal;
 }
 function pesoCorporal(){
      if(peso2.value>30){
-        pesoBasal2=(( (peso2.value * 4) + 7) / (+peso2.value + 90))
+       let pesoBasal2=(( (peso2.value * 4) + 7) / (+peso2.value + 90))
         pesoBasal2=pesoBasal2.toFixed(2);
         return pesoBasal2;
         
@@ -69,7 +69,7 @@ if(peso2.value!=0){
  if(peso2.value>30){
 mantenimiento.style.display="none";
 mm.style.display="none";
-parrafo.textContent="Volumen diario (1500): " + pesoCorporal()*1500 + " CC";
+parrafo.textContent="Volumen diario (1500): " + (pesoCorporal()*1500).toFixed() + " CC";
 complemento.textContent="Volumen diario (2000) : " + pesoCorporal()*2000+ " CC";
 }
 if(peso2.value<=30){
