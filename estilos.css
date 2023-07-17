@@ -48,6 +48,7 @@ body{
     width: 50%;
     height: 100%;
     margin: auto;
+    
 }
 #detalle{
     float: left;
@@ -66,12 +67,10 @@ body{
     text-align: center;
     
 }
-#base{
-    background-color: white;
-    display: none;
+#volumen{
+    position:relative;
+    justify-content: center;
+    text-align: center;
     width: 300px;
-    border-radius: 4%;
-    overflow: hidden;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    
+   
 }
